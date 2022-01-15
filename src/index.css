@@ -1,0 +1,93 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body {
+  background-color: black !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3em;
+}
+
+img {
+  width: 9em;
+}
+
+/* .tick {
+  font-size: 3em;
+} */
+
+#goreDolje {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+#grad {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.85) 34.38%,
+      rgb(0, 0, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      #00b4ff 0%,
+      #b44aff 42.57%,
+      #ff5fe8 67.05%,
+      #ff5d9d 82.67%,
+      #ff7356 100%
+    );
+}
+/* .object {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+  /* position: absolute;
+  left: 0;
+  bottom: 0; */
+/* }  */
+
+/* @-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+} */
